@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup as bs
 import re
 import argparse
 from prettytable import PrettyTable
+from sys import exit
 
 aparser = argparse.ArgumentParser()
 aparser.add_argument('search', nargs='?', default='')
