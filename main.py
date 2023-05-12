@@ -79,7 +79,3 @@ def parser():
         bucket_add = array_bucket[int(bucket_number)]
         os.system(bucket_add)
 parser()
-
-
-
-
